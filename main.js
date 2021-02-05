@@ -1,18 +1,20 @@
+// Vanessa Gutierrez 02/05/2021
+
 const app = {
   data() {
     return {
-      title: "Inventory App",
+      title: "Inventory Application",
       newProduct: "",
       products: [
         {
           id: 0,
-          name: "Apple",
-          qty: 3,
+          name: "Backpack",
+          qty: 10,
         },
         {
           id: 1,
-          name: "Orange",
-          qty: 5,
+          name: "Notebook",
+          qty: 15,
         },
       ],
     };
